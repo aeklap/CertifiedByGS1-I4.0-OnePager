@@ -31,7 +31,7 @@ Im Rahmen des Certified by GS1 Projektes entwickelt GS1 Germany gemeinsam mit in
 ### IDs
 
 GS1 vergibt bereits heute weltweit eindeutige Idente nach einem anerkannten Standard.
-Bekanntestes Beispiel sind die im Einzelhandel in den Barcodes (EAN) codierten Global Trade Item Numbers (GTINs). **[TODO: Wie viele GS1 Idente sind im Umlauf? Referenzkunden im Technischen/Industriellen Bereich? weitere generische Fakten?]** Die insgesamt 12 verfügbaren GS1 Keys werden bereits bei 60.000 Kunden branchenübergreifend eingesetzt, z.B. auch bei der Deutschen Bahn oder der Bundeswehr.
+Bekanntestes Beispiel sind die im Einzelhandel in den Barcodes (EAN) codierten Global Trade Item Numbers (GTINs). Die insgesamt 12 verfügbaren GS1 Keys werden bereits bei 60.000 Kunden branchenübergreifend eingesetzt, z.B. auch bei der Deutschen Bahn oder der Bundeswehr.
 
 Neben handelsspezifischen Identen gibt es Idente speziell für das Asset Management z.B. von Maschinen (Global Individual Asset Identifier, GIAI) und von (Maschinen-)Bauteilen (Component / Part Identifier, CPI).
 
