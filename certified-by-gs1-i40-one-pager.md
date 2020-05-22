@@ -3,14 +3,14 @@
 
 # Sichere Idente für die Industrie 4.0 Certified by GS1
 
-Sicherheitsfragen können in industriellen Anwendungen Missionskritisch werden, das gilt insbesondere wenn das Industrial Internet of Things (IIOT) Maschinen miteinander vernetzt und deren Steuerung und Konfiguration zunehmend über Netzwerkschnittstellen erfolgt. Eine gesicherte automatische Identifizierung und Authentifizierung ist für die Lösung dieser Fragen absolut notwendig.
+Sicherheitsfragen können in industriellen Anwendungen missionskritisch werden, das gilt insbesondere wenn das Industrial Internet of Things (IIOT) Maschinen miteinander vernetzt und deren Steuerung und Konfiguration zunehmend über Netzwerkschnittstellen erfolgt. Eine gesicherte automatische Identifizierung und Authentifizierung ist für die Lösung dieser Fragen absolut notwendig.
 
 **Wollen Sie mit uns an der Lösung der Sicherheitsfrage Arbeiten?**
 
 ## Use Case: Wandlungsfähige Fabrik
 
-Im Anwendungsszenario "Wandlungsfähige Fabrik" der Plattform Industrie 4.0 wird die moderne Fabrik von vielfältigen Maschinen (Robotern, Werkzeuge, Fördertechnik, etc.) bevölkert, die im *Internet of Things (IoT)* miteinander Kommunizieren.
-Die Maschinen selbst sind dynamisch in ihren Fähigkeiten, z.B. können Roboter und Werkzeuge umkonfiguriert werden um verschiedene Aufgaben auszuführen. Vor allem aber kommen verschiedene Maschinen verschiedener Hersteller gemeinsam in einer Fertigung zum Einsatz und müssen sich möglichst direkt untereinander abstimmen, um den aktuellen Auftrag zu fertigen. Hierdurch wird ein modularer und dadurch wandlungsfähiger Aufbau der Produktion innerhalb einer Fabrik realisiert.
+Im Anwendungsszenario "Wandlungsfähige Fabrik" der Plattform Industrie 4.0 wird die moderne Fabrik von vielfältigen Maschinen (Robotern, Werkzeuge, Fördertechnik, etc.) bevölkert, die im *Internet of Things (IoT)* miteinander kommunizieren.
+Die Maschinen selbst sind dynamisch in ihren Fähigkeiten, z.B. können Roboter und Werkzeuge umkonfiguriert werden, um verschiedene Aufgaben auszuführen. Vor allem aber kommen verschiedene Maschinen verschiedener Hersteller gemeinsam in einer Fertigung zum Einsatz und müssen sich möglichst direkt untereinander abstimmen, um den aktuellen Auftrag zu fertigen. Hierdurch wird ein modularer und dadurch wandlungsfähiger Aufbau der Produktion innerhalb einer Fabrik realisiert.
 
 ![Anwendungszenario WFF aus [1]](pics/anwendungszenario-wff.png "Anwendungszenario WFF aus [1]")
 
@@ -31,7 +31,7 @@ Im Rahmen des Certified by GS1 Projektes entwickelt GS1 Germany gemeinsam mit in
 ### IDs
 
 GS1 vergibt bereits heute weltweit eindeutige Idente nach einem anerkannten Standard.
-Bekanntestes Beispiel sind die im Einzelhandel in den Barcodes (EAN) codierten Global Trade Item Numbers (GTINs). **[TODO: Wie viele GS1 Idente sind im Umlauf? Referenzkunden im Technischen/Industriellen Bereich? weitere generische Fakten?]** Die insgesamt 12 verfügbaren GS1 Keys werden bereits bei 60.000 Kunden branchenübergreifend eingesetzt, z.B. auch bei der Deutschen Bahn oder der Bundeswehr.
+Bekanntestes Beispiel sind die im Einzelhandel in den Barcodes (EAN) codierten Global Trade Item Numbers (GTINs). Die insgesamt 12 verfügbaren GS1 Keys werden bei 60.000 Kunden branchenübergreifend eingesetzt, z.B. auch bei der Deutschen Bahn oder der Bundeswehr.
 
 Neben handelsspezifischen Identen gibt es Idente speziell für das Asset Management z.B. von Maschinen (Global Individual Asset Identifier, GIAI) und von (Maschinen-)Bauteilen (Component / Part Identifier, CPI).
 
