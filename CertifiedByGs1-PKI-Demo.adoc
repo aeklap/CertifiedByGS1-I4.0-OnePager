@@ -13,7 +13,7 @@ Sebastian Schmittner <sebastian.schmittner@eecc.de>
 == Certified By GS1 USP
 
 Bei der ID Vergabe teilt GS1 einem Unternehmen mit der Basisnummer ("Company
-Prefix") einen Namensraum zu, in welchem das Unternehmen dann selbst IDs
+Prefix") einen Namensraum zu, in welchem das Unternehmen selbst IDs
 vergeben kann. Parallel hierzu ermöglicht ein Unternehmenszertifikat mit
 Basisnummer Certified By GS1 dem Unternehmen selbst Zertifikate für die eigenen
 IDs zu erstellen. Diese grundlegende Idee ist in <<Chain>> dargestellt.
@@ -25,10 +25,10 @@ image::Certificate-Chain.png[Zertifikatskette]
 Mit dem Unternehmenszertifikat kann die Echtheit der eigenen IDs
 fälschungssicher nachgewiesen und offline überprüft werden, d.h. es kann z.B.
 überprüft werden, dass eine SGTIN tatsächlich von dem Unternehmen erzeugt wurde,
-dem die zugehörige Basisnummer gehört, ohne das ein online Lookup in einer
+dem die zugehörige Basisnummer gehört, ohne dass ein Online-Lookup in einer
 entsprechenden Datenbank nötig wäre. Auch Eigenschaften des mit der ID
 gekennzeichneten Assets können z.B. über die GS1 Standards in z.B. einen 2d Code
-wie die Datamatrix kodiert und deren Vertrauenswürdigkeit offline verifiziert
+wie dem GS1 DataMatrix kodiert und deren Vertrauenswürdigkeit offline verifiziert
 werden.
 
 
@@ -48,7 +48,7 @@ image::Parts-Certified.png[IDs certified by GS1 - Vertrauen]
 Basierend auf digital zertifizierten Identitäten kann, genau wie bei der
 gängigen Verschlüsselung der Kommunikation über das Internet, ein gesicherter
 Kommunikationskanal aufgebaut werden. So können z.B. Messdaten oder
-Steuerbefehle übertragen werden, ohne dass diese von dritten gefälscht werden
+Steuerbefehle übertragen werden, ohne dass diese von Dritten gefälscht werden
 können.
 
 == Umsetzung
