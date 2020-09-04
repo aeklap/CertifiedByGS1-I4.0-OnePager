@@ -62,11 +62,12 @@ Hier oder Einfügung
 
 === Idente, Echtheit und Identitätsdiebstahl
 
-**Anna**
+Das Kernprodukt der GS1 Germany ist GS1 Complete. Hier handelt es sich um ein Leistungspaket mit dem Kunden ein Nummernkreis zugeteilt wird, in welchem dieser GTINs und andere Idente vergeben kann. Es beinhaltet zusätzlich noch weitere Services und Publikationen zur Optimierung der Geschäftsprozesse. 
 
-- Wie ist der derzeitige Stand von GS1 Standards in diesem Bereich?
+Elementar ist der bereits erwähnte Nummernkreis. Im Detail wird dem Kunden eine 13-stellige GLN (Global Location Number) zugeteilt, deren Basisnummer entweder 7, 8 oder 9 Stellen beinhaltet. Entsprechend kann der Kunde damit 100.000, 10.000 oder 1.000 GTINs (Global Trade Item Number) erstellen. Auch alle anderen GS1 Idente können auf Grundlage dieser Basisnummer gebildet werden. Die Vergabe und Zuteilung der einzelnen Idente erfolgt durch den Kunden selbst, ohne Kontrolle durch GS1. Jede Nummer kann nur einmal vergeben werden und ist daher weltweit überschneidungsfrei. Damit ist grundsätzlich eine eindeutige Zuordnung aller Idente möglich.
 
-- Bisher können GS1 Idente überwiegend nur für die reine Identifikation genutzt werden, eine Authentifikation (Echtheits-/Urheber-Prüfung) ist derzeitig nicht möglich.
+Eine Authentifikation durch GS1 ist bisher nicht gegeben. Eine Identitätsprüfung der Antragsteller für eine GS1 GLN erfolgt nicht. Dem Kunden wird bei Bestellung geglaubt, dass er derjenige ist für den er sich ausgibt. Trotz der fehlenden Kontrolle sind GS1 Germany bisher keine Identitätsdiebstähle bekannt. Ein Missbrauch der Idente erfolgt in einigen Fällen in der Nutzung gefälschter GTINs. Unternehmen, die keine GS1 Kunden sind, nutzen Nummernkombinationen entsprechend dem GS1 Nummernsystem, um Produkte online anbieten zu können. Dieser GTIN-Missbrauch wird GS1-intern durch Mitarbeiter verfolgt und unterbunden. Eine teil-automatisierte Lösung die in diesem Bereich wächst ist der Service „Verified by GS1“. Hier können Online-Portale und Händler GTINs auf ihre Echtheit und Herkunft überprüfen, die im Vorfeld durch die Hersteller in die GS1 Registry eingepflegt wurden.
+
 
 ==== LEI VS GLN
 
@@ -75,12 +76,12 @@ Hier oder Einfügung
 === Digitale Signatur und Zertifikate
 
 ==== Symmetrisch
-Kryptografische Systeme werden kann man in zwei unterschiedliche Hauptbereiche einteilen: symmetrische und asymmetrische Kryptographie. Die symmetrische Verschlüsselung wird oftmals als Synonym für die symmetrische Kryptographie verwendet. Die asymmetrische Kryptographie hingegen umfasst zwei Themen. Die asymmetrische Verschlüsslung und digitale Signaturen.
+Kryptografische Systeme kann man in zwei unterschiedliche Hauptbereiche einteilen: symmetrische und asymmetrische Kryptographie. Die symmetrische Verschlüsselung wird oftmals als Synonym für die symmetrische Kryptographie verwendet. Die asymmetrische Kryptographie hingegen umfasst zwei Themen. Die asymmetrische Verschlüsslung und digitale Signaturen.
 
 Die symmetrischen Verschlüsselungsverfahren reichen recht weit in die Menschheitsgeschichte zurück. Alle kryptografischen Algorithmen, begannen als symmetrische Verfahren.
 Schon 600v Chr. setzten hebräische Gelehrte einen einfache Zeichenaustauschalgorithmen mit den Namen: Atbash-Verschlüsselung ein. Die Caesar-Verschlüsslung ist wahrscheinlich die bekannteste symmetrische Verschlüsselung. Diese geht auf den römischen Feldherrn Gaius Julius Caesar zurück. Er benutzte diese geheime Kommunikation für seine militärische Korrespondenz.
 
-Die Funktionsweise der symmetrischen Schlüssel ist recht einfach. Es gibt nur einen Schlüssel, den geheimen Schlüssel. Der wird für die Ver- wie auch für die Entschlüsselung genutzt. Das bedeutet aber auch, dass sowohl der Sender, als auch der Empfänger immer diesen Schlüssel benötigt. Der Versender hat diesen Schlüssel, nur muss dieser auch über einen sicheren Übertragungsweg an den Empfänger gelangen, um z.B. ein Mitlesen der verschlüsselten Nachricht nicht zu ermöglichen. 
+Die Funktionsweise der symmetrischen Schlüssel ist recht einfach. Es gibt nur einen Schlüssel, den geheimen Schlüssel. Der wird für die Ver- wie auch für die Entschlüsselung genutzt. Das bedeutet aber auch, dass sowohl der Sender, als auch der Empfänger immer diesen Schlüssel benötigen. Der Versender hat diesen Schlüssel, nur muss dieser auch über einen sicheren Übertragungsweg an den Empfänger gelangen, um z.B. ein Mitlesen der verschlüsselten Nachricht nicht zu ermöglichen. 
 Eine symmetrische Verschlüsselung kann man daher für das Verschlüsseln von Dateien, Verzeichnissen oder Laufwerken nutzen. 
 
 ==== Asymmetrisch
@@ -88,34 +89,34 @@ In der Praxis nutzt man heute eher die asymmetrische Verschlüsselung.
 
 Denn bei der asymmetrischen Verschlüsselung benötigt man je einen Schlüssel zum Verschlüsseln der Daten und einen anderen Schlüssel zum Entschlüsseln. Der zur Verschlüsselung verwendete Schlüssel wird in einem asymmetrischen Verfahren als öffentlicher Schlüssel bezeichnet und kann jedem frei mitgeteilt werden. Der für die Entschlüsselung verwendete Schlüssel muss hingegen geheim gehalten werden. 
 
-Erstmals wurde die Idee der asymmetrischen Verschlüsselung im Jahr 1976 von Diffie und Hellman in ihrem Aufsatz "New Directions in Cryptography" veröffentlicht. In diesem Aufsatz, führen die Autoren das Prinzip der asymmetrischen Kryptographie ein. Rivest, Shamir und Adleman stellten 1978 mit RSA das erste asymmetrische Verschlüsselungsverfahren vor. 
+Erstmals wurde die Idee der asymmetrischen Verschlüsselung im Jahr 1976 von Diffie und Hellman in ihrem Aufsatz "New Directions in Cryptography" veröffentlicht. In diesem Aufsatz führen die Autoren das Prinzip der asymmetrischen Kryptographie ein. Rivest, Shamir und Adleman stellten 1978 mit RSA das erste asymmetrische Verschlüsselungsverfahren vor. 
 
 Die Funktionsweise einer asymmetrischen Verschlüsselung lässt sich wie folgt erklären:
-Jeder Teilnehmer erzeugt sich ein sogenanntes Schlüsselpaar. Das Schlüsselpaar besteht aus einem öffentlichen und einem geheimen Schlüssel. Der private Schlüssel sollte dann nicht, oder nur in einer nicht vertretbaren Zeit, aus dem öffentlichen Schlüssel berechnet werden können. Wenn ein Versender eine geheime Nachricht an einen Empfänger versenden möchte, so benötigt sie den öffentlichen Schlüssel vom Empfänger. Diesen bekommt Sie dann vom Empfänger selber oder aus einem öffentlichen Schlüsselverzeichnis. Der Versender verschlüsselt die Nachricht mit dem öffentlichen Schlüssel und einer Verschlüsselungsfunktion. Die Verschlüsselte Nachricht kann danach an den Empfänger versendet werden. Dieser benutzt die Entschlüsselungsfunktion mit Hilfe seines privaten Schlüssels, um die ursprüngliche Nachricht wiederherzustellen.
+Jeder Teilnehmer erzeugt sich ein sogenanntes Schlüsselpaar. Das Schlüsselpaar besteht aus einem öffentlichen und einem geheimen Schlüssel. Der private Schlüssel sollte dann nicht, oder nur in einer nicht vertretbaren Zeit, aus dem öffentlichen Schlüssel berechnet werden können. Wenn ein Versender eine geheime Nachricht an einen Empfänger versenden möchte, so benötigt dieser den öffentlichen Schlüssel vom Empfänger. Man erhält ihn vom Empfänger selber oder aus einem öffentlichen Schlüsselverzeichnis. Der Versender verschlüsselt die Nachricht mit dem öffentlichen Schlüssel und einer Verschlüsselungsfunktion. Die verschlüsselte Nachricht kann danach an den Empfänger versendet werden. Dieser benutzt die Entschlüsselungsfunktion mit Hilfe seines privaten Schlüssels, um die ursprüngliche Nachricht wiederherzustellen.
 
 ==== Hashing
-Durch Hashing oder eine Hashfunktion, wird eine Zeichenkette variabler Länge auf eine Zeichenkette fester Länge abgebildet. Durch eine effiziente mathematische Funktion, wird der Hashwert meist erheblich kürzer als der Text selber. Dadurch wird ein Fingerabdruck (Fingerprint) der Zeichenkette oder Dokument erstellt. Dieser Fingerabdruck dient dann als nahezu eindeutige Kennzeichnung des Dokumentes, sowie ein Fingerabdruck uns auch nahezu eindeutig identifiziert. Durch diesen Hashwert kann man z.B. überprüfen, ob ein Dokument, eine Datei oder ein Udate verändert wurde. 
+Durch Hashing oder eine Hashfunktion, wird eine Zeichenkette variabler Länge auf eine Zeichenkette fester Länge abgebildet. Durch eine effiziente mathematische Funktion, wird der Hashwert meist erheblich kürzer als der Text selber. Dadurch wird ein Fingerabdruck (Fingerprint) der Zeichenkette oder Dokument erstellt. Dieser Fingerabdruck dient dann als nahezu eindeutige Kennzeichnung des Dokumentes, ähnlich dem menschlichen Fingerabdruck, der uns auch nahezu eindeutig identifiziert. Durch diesen Hashwert kann man z.B. überprüfen, ob ein Dokument, eine Datei oder ein Update verändert wurden. 
 
 Beispiel:
 
 ==== Signatur
-Wenn man von Signatur redet, muss man zwischen einer elektronischen Signatur und einer digitalen Signatur unterscheiden. Da beide oftmals synonym verwendet werden. Was jedoch nicht ganz richtig ist. 
+Wenn man von Signatur redet, muss man zwischen einer elektronischen Signatur und einer digitalen Signatur unterscheiden. Beide werden oftmals synonym verwendet, dies ist jedoch nicht ganz richtig. 
 
-Bei der elektronischen Signatur (elektronische Unterschrift), spricht man eher von einem rechtlichen oder juristischen Begriff. Diese müssen auch nicht zwangsläufig auf einer digitalen Signatur basieren. Bei der digitalen Signatur hingegen, handelt es sicher eher um ein mathematisches oder technisches Verfahren. 
+Bei der elektronischen Signatur (elektronische Unterschrift), spricht man eher von einem rechtlichen oder juristischen Begriff, sie muss nicht zwangsläufig auf einer digitalen Signatur basieren. Bei der digitalen Signatur hingegen, handelt es sicher eher um ein mathematisches oder technisches Verfahren. 
 
-Bei der digitalen Signatur wird mit dem privaten Schlüssel zu dem originalen Dokument eine „Unterschrift“/Signatur hinzugefügt. Mit dem öffentlichen Schlüssel kann dann später vom Empfänger festgestellt werden, ob die Daten wirklich von demjenigen stammen, der mit seinem privaten Schlüssel signiert hat und ob die Daten verändert worden und noch unverändert sind. Die digitalen Signaturen sind deshalb notwendig, da sich der Absender von Dateien, Dokumenten oder Nachrichten fälschen lässt. Den Absender einer E-Mail lässt sich ganz einfach fälschen. Somit lässt sich die Identität des Unterzeichners zweifelsfrei nachzuweisen und die Integrität der elektronischen Nachricht sicherstellen. 
-Wie funktionert eine digitale Signatur? Aus Performance-Gründen wird als erstes von der Nachricht ein Hashwert berechnet. Dieser Haswert ist dann der Fingerabdruck dieser Nachricht. Für die Signatur wird dann der geheime private Schlüssel verwendet und durch einem Signieralgorithmus ein Wert, die sogenannte digitale Signatur berechnet. Die Nachricht kann dann mit der digitalen Signatur an den Empfänger versendet werden. Der Empfänger kann dann mit dem öffentlichen Schlüssel des Versenders überprüfen, ob die Nachricht wirklich vom versender verschickt wurde und ob diese Nachricht unverändert ist. 
+Bei der digitalen Signatur wird mit dem privaten Schlüssel zu dem originalen Dokument eine „Unterschrift“/Signatur hinzugefügt. Mit dem öffentlichen Schlüssel kann dann später vom Empfänger festgestellt werden, ob die Daten wirklich von demjenigen stammen, der mit seinem privaten Schlüssel signiert hat und ob die Daten verändert worden und noch unverändert sind. Die digitalen Signaturen sind deshalb notwendig, da sich der Absender von Dateien, Dokumenten oder Nachrichten fälschen lässt. Der Absender einer E-Mail lässt sich ganz einfach fälschen. Somit lässt sich die Identität des Unterzeichners zweifelsfrei nachzuweisen und die Integrität der elektronischen Nachricht sicherstellen.  [???Zusammenhang letzter Satz??]
+Wie funktionert eine digitale Signatur? Aus Performance-Gründen wird als erstes von der Nachricht ein Hashwert berechnet. Dieser Haswert ist dann der Fingerabdruck dieser Nachricht. Für die Signatur wird der geheime private Schlüssel verwendet und durch einen Signieralgorithmus ein Wert, die sogenannte digitale Signatur, berechnet. Die Nachricht kann mit der digitalen Signatur an den Empfänger versendet werden. Der Empfänger ist daraufhin in der Lage mit dem öffentlichen Schlüssel des Versenders überprüfen, ob die Nachricht wirklich vom tatsächlichen Versender verschickt wurde und ob diese Nachricht unverändert ist. 
 
 ==== Zertifikate
 Ein „normales“ Zertifikat ist im üblichen Sinne eine Bescheinigung oder eine Urkunde zu bestimmten Informationen, zu einem Unternehmen oder zu einer Person.
-Als GS1 vergeben wir in gedruckter Form ein Zertifkat für die erfolgreiche Teilnahme am globalen GS1 System. In diesem Zertifkat wird unter anderem die GLN und die dazugehörige Firma aufgeführt.
-Im Gegensatz zu einem gedruckten Zertifikat, stellt ein digitales Zertifikat im Wesentlichen eine digitale Beglaubigung dar. Mit diesem digitalen Zertifikat kann ich bestimmte Eigenschaften zu einem Objekt oder zu einer Person bestätigen, sowie die Echtheit und die Datenintegrität überprüfen. Durch ein Zertifikat lässt isch ein öffentlicher Schlüssel sicher einem bestimmten Besitzer zuweisen.
+GS1 vergibt in gedruckter Form ein Zertifkat für die erfolgreiche Teilnahme am globalen GS1 System. In diesem Zertifkat wird unter anderem die GLN und die dazugehörige Firma aufgeführt.
+Im Gegensatz zu einem gedruckten Zertifikat, stellt ein digitales Zertifikat im Wesentlichen eine digitale Beglaubigung dar. Mit diesem digitalen Zertifikat kann ich bestimmte Eigenschaften zu einem Objekt oder zu einer Person bestätigen, sowie die Echtheit und die Datenintegrität überprüfen. Durch ein Zertifikat lässt sich ein öffentlicher Schlüssel sicher einem bestimmten Besitzer zuweisen.
 
 Zertifikate werden genutzt, um:
 -	den Datenverkehr im Internet zu verschlüsseln
 -	Software, Updates oder digitale Dokumente zu signieren
 -	E-Mails zu verschlüsseln und zu signieren
--	Oder dem Aufbau von VPN Verbindungen.
+-	VPN Verbindungen aufzubauen.
 Die am häufigsten verwendeten Zertifikate sind: 
 -	PGP Zertifikat (siehe Zertifikatsarten in PGP) 
 -	X.509 Zertifikat
@@ -123,7 +124,7 @@ Die am häufigsten verwendeten Zertifikate sind:
 === PKI / DID / SSI
 ==== PKI
 
-Die in den vorangegangenen Kapiteln beschriebenen Verfahren und Methoden, bilden die Grundlage für den Aufbau einer Public Key Infrastruktur (PKI). Durch das enorme Wachstum und Verbreitung des World Wide Web und den darin angebotenen Services und Dienstleistungen, stieg natürlich auch der Bedarf an Authentifizierung und sicherer Kommunikation stark an. Alleine aus kommerziellen Gründen wie z.B. E-Commerce, Banking, Social Networks oder Online-Zugriff auf 
+Die in den vorangegangenen Kapiteln beschriebenen Verfahren und Methoden, bilden die Grundlage für den Aufbau einer Public Key Infrastruktur (PKI). Durch das enorme Wachstum und Verbreitung des World Wide Web und den darin angebotenen Services und Dienstleistungen, stieg auch der Bedarf an Authentifizierung und sicherer Kommunikation stark an. Alleine aus kommerziellen Gründen wie z.B. E-Commerce, Banking, Social Networks oder Online-Zugriff auf 
 Datenbanken macht eine PKI unabdingbar. Bis zu diesem Zeitpunkt wurden jedoch nur symmetrische Schlüssel eingesetzt, die sowohl für die Ver- als auch die Entschlüsselung denselben Schlüssel verwenden. 
 
 Die ersten nicht öffentlichen Entwicklungen der PKI fanden beim britischen Geheimdienst am Anfang der 1970er Jahre statt. Wurden jedoch erst in den 1990er Jahren, aufgrund der strengen Geheimhaltungspflicht, im Nachhinein anerkannt. In einer ersten öffentlichen Bekanntgabe wurde das Prinzip der asymmetrischen Verschlüsselung dann 1976 von den beiden Kryptographen Whitfeld Diffie und Martin Hellman vorgeschlagen. 
